@@ -1,0 +1,10 @@
+.feed123{
+    width: 35rem;
+    height: 38rem;
+}
+p{
+    font-size: 12px;
+}
+input:focus, textarea:focus {
+    outline: none;
+}

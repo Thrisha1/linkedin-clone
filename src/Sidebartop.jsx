@@ -1,0 +1,34 @@
+import React from 'react'
+import Inventory2Icon from '@mui/icons-material/Inventory2';
+
+function Sidebartop() {
+  return (
+    <div className="sbar card rounded-3 mt-3" >
+        <img className="position-relative rounded-2" src="data:image/jpeg;base64,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" alt="fg" />
+        <img className="profile rounded-circle w-25 mt-5 position-absolute" src="https://www.erwinlist.com/html/wp-content/uploads/2020/02/29-5098-pp_gallery/LinkedIn-Sample-Photo-001%28pp_w768_h768%29.jpg" alt="" />
+        <div className="mid text-center">
+        <h6 className="mt-5">Thrisha Kannan</h6>
+        <div className="container">
+        <p className="about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, vitae dolores! Perspiciatis ipsum explicabo libero!</p>
+        </div>
+        </div>
+        <hr />
+        <div className="about d-flex justify-content-between container">
+        <p>Who's viewed your profile</p><p>66</p>
+        </div>
+        <div className="about d-flex justify-content-between container">
+        <p>Impression of your post</p><p>247</p>
+        </div>
+        <hr />
+        <div className="container">
+        <p className="about">Acess exclusive tools & insights</p>
+        <div className="d-flex">
+        <Inventory2Icon className="topicon text-warning" /> <a className="about ms-3 text-dark" href="#"><u>Try premium for free</u></a>
+        </div>
+        </div>
+
+    </div>
+  )
+}
+
+export default Sidebartop
